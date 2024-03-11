@@ -116,6 +116,10 @@ export const siteConfig = {
                     title: 'Pricing',
                     href: '/house-cleaning-pricing-canberra',
                 },
+                {
+                    title: 'End Of Lease Cleaning Pricing',
+                    href: '/house-cleaning-pricing-canberra',
+                },
                 { title: 'Checklist', href: '/house-cleaning-checklist' },
                 { title: 'FAQs', href: '/frequently-asked-questions' },
                 { title: 'Privacy Policy', href: '/privacy' },

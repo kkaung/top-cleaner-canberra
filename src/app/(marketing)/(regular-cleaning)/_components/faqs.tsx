@@ -2,7 +2,7 @@ import { Icons } from '@/components/icons';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import React, { type HTMLAttributes } from 'react';
-import { descriptionVariants, headingVariants } from '@/components/page-header';
+import { headingVariants } from '@/components/page-header';
 import AccordionList from '@/components/accordion-list';
 import { FAQPageJsonLd } from 'next-seo';
 
