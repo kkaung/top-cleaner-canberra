@@ -4,11 +4,10 @@ import type { FooterItem, MainNavItem } from '@/types';
 export type SiteConfig = typeof siteConfig;
 
 const links = {
-    facebook:
-        'https://www.linkedin.com/company/more-clean-house-cleaning-sydney',
-    instagram: 'https://instagram.com/moreclean_au',
-    twitter: 'https://twitter.com/moreclean_au',
-    pinterest: 'https://www.pinterest.com.au/magicclean_au',
+    facebook: 'https://www.linkedin.com/company/',
+    instagram: 'https://instagram.com/',
+    twitter: 'https://twitter.com/',
+    pinterest: 'https://www.pinterest.com.au/',
     linkin: 'https://www.linkedin.com/company/',
     youtube: 'https://www.youtube.com/channel/',
     googlemap: '',
@@ -18,12 +17,12 @@ const links = {
 };
 
 export const siteConfig = {
-    logo: 'MagicClean',
-    name: 'Magic Clean',
-    title: `Canberra's Premium House Cleaning Serivce | Magic Clean`,
+    logo: 'KeepsClean',
+    name: 'Keeps Clean',
+    title: `Keeps Clean - Cleaning Service Canberra`,
     description: `Our top-rated cleaning services come with a 200% satisfaction guarantee. We deliver sparkling results you'll love with our professional cleaners. Book online in 60 seconds!`,
-    url: 'https://moreclean.com.au',
-    ogImage: 'https://moreclean.com.au/opengraph-image.png',
+    url: 'https://keepsclean.com.au',
+    ogImage: 'https://keepsclean.com.au/opengraph-image.png',
     mainNav: [
         {
             title: 'Services',
@@ -142,7 +141,7 @@ export const siteConfig = {
     },
     rating: {
         ratingValue: '4.9',
-        ratingCount: '727',
+        ratingCount: 727,
     },
 };
 
