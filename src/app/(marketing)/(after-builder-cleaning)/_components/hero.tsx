@@ -40,7 +40,7 @@ export default function Hero({ location, ...props }: HeroProps) {
                     <CardHeader className="py-6 pt-0 px-0 md:p-6 md:pb-0 md:pt-6">
                         <h1 className="font-extrabold text-4xl leading-none">
                             <Balancer>
-                                Construction Cleaning Service In {location}
+                                Post Construction Cleaning Service In {location}
                             </Balancer>
                         </h1>
                     </CardHeader>

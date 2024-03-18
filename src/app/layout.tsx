@@ -3,7 +3,6 @@ import { PropsWithChildren } from 'react';
 import type { Metadata, Viewport } from 'next';
 import { Toaster } from '@/components/ui/toaster';
 import { TailwindIndicator } from '@/components/tailwind-indicator';
-import { GoogleTagManager } from '@next/third-parties/google';
 import { env } from '@/env.mjs';
 import { siteConfig } from '@/configs/site';
 import { fontSans } from '@/lib/fonts';
@@ -37,7 +36,7 @@ export const metadata: Metadata = {
         title: siteConfig.name,
         description: siteConfig.description,
         images: [`${siteConfig.url}/og.jpg`],
-        creator: '@rzcleaning_au',
+        creator: '@keepsclean',
     },
     icons: {
         icon: '/favicon.ico',

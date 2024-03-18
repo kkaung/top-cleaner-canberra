@@ -108,15 +108,10 @@ export const siteConfig = {
         {
             title: 'Useful Links',
             items: [
-                { title: 'Services', href: '/cleaning-services' },
                 { title: 'Contact Us', href: '/contact' },
                 { title: 'Blog', href: '/blog' },
                 {
                     title: 'Pricing',
-                    href: '/house-cleaning-pricing-canberra',
-                },
-                {
-                    title: 'End Of Lease Cleaning Pricing',
                     href: '/house-cleaning-pricing-canberra',
                 },
                 { title: 'Checklist', href: '/house-cleaning-checklist' },
