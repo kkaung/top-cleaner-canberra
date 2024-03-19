@@ -1,10 +1,8 @@
 import { Shell } from '@/components/shell';
 import { type Metadata } from 'next';
 import React from 'react';
-import { BreadcrumbJsonLd, OrganizationJsonLd } from 'next-seo';
 import Commitment from '@/components/commitment';
-import { absoluteUrl } from '@/lib/utils';
-import { siteConfig } from '@/configs/site';
+
 
 import Hero from './_components/hero';
 import HowWork from './_components/how-work';
@@ -16,7 +14,6 @@ import Gurantee from './_components/gurantee';
 import LatestBlog from './_components/latest-blog';
 
 import Featuring from './_components/featuring';
-import SocialVideos from '@/components/social-videos';
 import { ServicesDialog } from '@/components/services-dialog';
 import Services from './_components/services';
 import About from '@/components/about';

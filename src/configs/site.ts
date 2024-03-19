@@ -17,12 +17,12 @@ const links = {
 };
 
 export const siteConfig = {
-    logo: 'KeepsClean',
-    name: 'Keeps Clean',
-    title: `Keeps Clean - Cleaning Service Canberra`,
+    logo: 'TopCleaner',
+    name: 'Top Cleaner',
+    title: `Top Cleaner - Cleaning Service Canberra`,
     description: `Our top-rated cleaning services come with a 200% satisfaction guarantee. We deliver sparkling results you'll love with our professional cleaners. Book online in 60 seconds!`,
-    url: 'https://keepsclean.com.au',
-    ogImage: 'https://keepsclean.com.au/opengraph-image.png',
+    url: 'https://topcleanercanberra.com.au',
+    ogImage: 'https://topcleanercanberra.com.au/opengraph-image.png',
     mainNav: [
         {
             title: 'Services',
