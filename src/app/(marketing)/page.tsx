@@ -1,5 +1,5 @@
-import { Shell } from '@/components/shell';
 import { type Metadata } from 'next';
+import { Shell } from '@/components/shell';
 import React from 'react';
 import Commitment from '@/components/commitment';
 

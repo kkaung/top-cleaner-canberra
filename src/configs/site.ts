@@ -4,12 +4,13 @@ import type { FooterItem, MainNavItem } from '@/types';
 export type SiteConfig = typeof siteConfig;
 
 const links = {
-    facebook: 'https://www.linkedin.com/company/',
-    instagram: 'https://instagram.com/',
-    twitter: 'https://twitter.com/',
-    pinterest: 'https://www.pinterest.com.au/',
-    linkin: 'https://www.linkedin.com/company/',
-    youtube: 'https://www.youtube.com/channel/',
+    facebook:
+        'https://www.facebook.com/people/Top-Cleaner-Canberra/61557245262497',
+    instagram: 'https://instagram.com/topcleanercanberra',
+    twitter: 'https://twitter.com/topcleaner_',
+    pinterest: 'https://www.pinterest.com.au/topcleanercanberra',
+    linkin: 'https://www.linkedin.com/company/top-cleaner-canberra',
+    youtube: 'https://www.youtube.com/channel/UC_6_y-1oRQqQRt0lQvvm16g',
     googlemap: '',
 
     buynsw: 'https://buy.nsw.gov.au/supplier/profile',
@@ -19,7 +20,7 @@ const links = {
 export const siteConfig = {
     logo: 'TopCleaner',
     name: 'Top Cleaner',
-    title: `Top Cleaner - Cleaning Service Canberra`,
+    title: `Top Cleaner Canberra`,
     description: `Our top-rated cleaning services come with a 200% satisfaction guarantee. We deliver sparkling results you'll love with our professional cleaners. Book online in 60 seconds!`,
     url: 'https://topcleanercanberra.com.au',
     ogImage: 'https://topcleanercanberra.com.au/opengraph-image.png',
@@ -132,7 +133,7 @@ export const siteConfig = {
     business: {
         email: 'contact@topcleanercanberra.com.au',
         phone: '1302 245 417',
-        address: '401/249 George St, 2017 NSW',
+        address: '11 Moore St, Canberra ACT 2601',
         openingHour: 'Mon – Sun: 9:00 AM – 5:00 PM',
     },
     rating: {
