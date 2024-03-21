@@ -220,9 +220,10 @@ export default async function PostPage({ params }: PostPageProps) {
                 <div className="space-y-2">
                     <h3 className="font-semibold text-lg">{siteConfig.name}</h3>
                     <p className="text-sm">
-                        {siteConfig.name} is a top-rated house cleaning company
-                        in Canberra. We offer tailored cleaning services for your
-                        homes, apartments and offices.
+                        <Link href="/">{siteConfig.title}</Link> is a top-rated
+                        house cleaning company in Canberra. We offer tailored
+                        cleaning services for your homes, apartments and
+                        offices.
                     </p>
                 </div>
                 <ul className="grid grid-cols-1 gap-x-4 gap-y-2 text-sm">

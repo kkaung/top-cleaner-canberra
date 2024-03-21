@@ -22,7 +22,7 @@ export default function FooterTabs() {
     return (
         <section>
             <Tabs
-                defaultValue="gold-coast"
+                defaultValue="canberra"
                 className="relative mt-6 w-full size-full overflow-auto"
             >
                 <ScrollArea
