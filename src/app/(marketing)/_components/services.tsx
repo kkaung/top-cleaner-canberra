@@ -39,6 +39,7 @@ export default function Services({ ...props }: ServicesProps) {
                                     src={ImageSrc!}
                                     alt={`${i.title}`}
                                     className="object-cover object-center aspect-video"
+                                    quality={80}
                                 />
                             </Link>
                             <div className="p-4">
